@@ -3,10 +3,13 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
- small, div, footer, header , p {
+ small, footer, header , p {
      width: fit-content;
+ }
+ small {
+     color:  rgba(71, 135, 245, 0.877);
  }
 .header {
     display: flex;
@@ -25,7 +28,11 @@ body {
     background-size: auto, 150%;
     background-attachment: scroll, scroll;
     color: rgb(196, 195, 195);
+    font-size: 14px;
 
+}
+.avatar, .mail {
+    margin: 0 auto;
 }
 .header::after {
     content: '';
@@ -52,23 +59,105 @@ body {
 }
 
 .bio {
-    width: 100%;
+    width: 600px;
 }
-.bio h2 {
-    color: rgba(8,62,158)
+.bio h2, .about h2 , li strong, h3{
+    color: rgba(8,62,158);
 }
 
 .bio-table {
-    width: 70%;
+    width: 80%;
     font-size: 20px;
-    background-color: rgba(8,62,158, .5);
-    padding: 20px;
+    background-color: rgba(8,62,158, .7);
+    padding: 10px;
     color: #fff;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 6px;
+    border-radius: 8px;
     transition: all 0.6s cubic-bezier(.25,.8,.25,1)
 }
 .bio-table:hover {
     box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 7px 8px rgba(0, 0, 0, 0.22);
 }
 
+.about {
+    max-width: 86.5%;
+    margin-top: 60px;
+}
+.about div {
+    background-color: #fff;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    border-radius: 8px;
+    transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+
+}
+.about div:hover {
+    box-shadow: 0 10px 28px rgba(0,0,0,0.25), 0 7px 8px rgba(0, 0, 0, 0.22);
+}
+.about ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 25px;
+
+}
+
+.form {
+    margin-top: 60px;
+    max-width: 86.5%;
+    
+}
+.form form {
+    
+}
+.form #name, .form #email {
+    font-size: 18px;
+    width: 78%;
+    height: 2.5em;
+    background: #fff;
+    border: solid  2px rgba(8,62,158, .2);
+    border-radius: 8px;
+    display: block;
+    padding: 0 0.75em;
+    text-decoration: none;
+    appearance: none;
+    outline: 0;
+    margin-bottom: 20px;
+
+}
+.form #message {
+    font-size: 18px;
+    width: 78%;
+    background: #fff;
+    border: solid  2px rgba(8,62,158, .2);
+    border-radius: 8px;
+    display: block;
+    padding: 0 0.75em;
+    text-decoration: none;
+    appearance: none;
+    outline: 0;
+    margin-bottom: 20px;
+    color: #a2a2a2;
+    padding: 0.75em;
+}
+
+.form #submit {
+    font-size: 18px;
+    max-width: 45%;
+    height: 2.5em;
+    background: #fff;
+    border: solid  2px rgba(8,62,158, .2);
+    border-radius: 8px;
+    display: block;
+    padding: 0 0.75em;
+    text-decoration: none;
+    appearance: none;
+    outline: 0;
+    margin-bottom: 20px;
+    transition: all 0.6s cubic-bezier(.25,.8,.25,1);
+    color: #a2a2a2;
+}
+.form #submit:hover {
+    outline-color: rgb(8,62,158);
+    border: solid 2px rgb(8,62,158);
+    color: rgba(71, 135, 245, 0.877);
+}
