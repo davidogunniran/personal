@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Ogunniran | Personal Profile</title>
     <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/c5bab74189.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <header class="header">
-            <small>David Ogunniran - Front End, Coding</small>
+            <div style="text-align: left !important; width: fit-content; cursor:pointer; "><small>David Ogunniran -
+                    Front End, Coding</small> </div>
             <div class="avatar">
                 <img src="https://res.cloudinary.com/dfrfmyx2v/image/upload/v1587242253/IMG_20200402_180001_9_ba1kqs.jpg" alt="david-ogunniran">
+
+                
                 <p class="desc">
-                    Hi there, I'm an Intern at StartNG. <br>
-                    Slack ID: @touch-dev | Track: Front End  <br>Development 
+                    Hi there &#128400;, I'm an Intern at StartNG. <span style="display: block;">
+                        Slack ID: @touch-dev | Track: <br> Front End Development </span>
                 </p>
                 <p class="media-links">
-                    <i></i>
+                    <a href="https://www.twitter.com/DavidOgunniran" target="_blank"> <i class="fab fa-twitter fa-2x "></i></a>
+                    <a href="https://www.github.com/touch-dev" target="_blank"> <i class="fab fa-github fa-2x"></i></a>
+
                 </p>
             </div>
-            <footer class="mail"></footer>
+            <footer class="mail">
+                <a href="#mail"><i class="fas fa-envelope fa-3x"></i></a>
+            </footer>
         </header>
         <section class="section">
             <div class="bio">
@@ -30,7 +40,7 @@
                         <td>Name :</td>
                         <td>David Ogunniran</td>
                     </tr>
-                    <tr >
+                    <tr>
                         <td>State of Origin :</td>
                         <td>Oyo State</td>
                     </tr>
@@ -52,30 +62,43 @@
             <div class="about">
                 <h2>About Me.</h2>
                 <div>
-                    <p>
-                    Hi... so basically, if you reached this point, you are here to see <br> what I'm really about. That's okay and I'll tell you a few. Grab a seat!</p>
+                    <p class="intro">
+                        Hi... so basically, if you reached this point, you are here to see what I'm really about. That's
+                        okay and I'll tell you a few. Grab a seat!</p>
                     <ul>
                         <li>
                             <strong>
                                 Photography
-                            </strong> <p> I'm a fan of pretty stuff(photography). From animals to natural imagery up to even abstract, I'm a die hard fan. Once I see one, I save, if I can't, I screenshot. Of course, I'm not a professional photographer, so you know why I'm not talking about the technical stuff.</p>
+                            </strong>
+                            <p> I'm a fan of pretty stuff(photography). From animals to natural imagery up to even
+                                abstract, I'm a die hard fan. Once I see one, I save, if I can't, I screenshot. Of
+                                course, I'm not a professional photographer, so you know why I'm not talking about the
+                                technical stuff.</p>
                         </li>
                         <li>
-                            <strong>Reader</strong> <p>books... books... books. You know what they say... <em>Readers are leaders</em>. <br> Every one gets to lead at one point or the other in their lives. Seeing that I want to lead well when it gets to my turn , then I've got to read books,. From the Holy Bible, motivational books, up to relationship manuals... I read them all. Not to forget super engaging Articles on Medium and Quora spanning across various spheres of life.</p>
+                            <strong>Reader</strong>
+                            <p>Books... Books... Books. You know what they say... <em>Readers are leaders</em>. Every
+                                one gets to lead at one point or the other in their lives. Seeing that I want to lead
+                                well when it gets to my turn , then I've got to read books,. From the Holy Bible to
+                                motivational books, up to relationship manuals... I read them all. Not to forget super
+                                engaging articles on Medium and Quora that span across various fields.</p>
                         </li>
                         <li>
-                            <strong>Traveller</strong> <p>
-                                Yeah, I've only had few opportunties to travel around the world but I want to see more. I love exploring various cultures, traditions, tastes and foods.
-                                The world is super diverse and exploring is one sure way of meeting individuals with interesting thought patterns.
+                            <strong>Traveller</strong>
+                            <p>
+                                Yeah, I've only had few opportunties to travel around the world but I want to see more.
+                                I love exploring various cultures, traditions, tastes and foods.
+                                The world is super diverse and exploring is one sure way of meeting individuals with
+                                interesting thought patterns.
                             </p>
                         </li>
                     </ul>
                     </p>
                 </div>
             </div>
-            
-            <div class="form">
-                <h3>Think I'm Worth talking to? Please leave a message.</h3>
+
+            <div class="form" id="mail">
+                <h3>Think I'm Worth talking to? Please leave a message &#x1F60E;.</h3>
                 <form action="https://formspree.io/mrgawqdn" method="post">
                     <div>
                         <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -84,7 +107,7 @@
                         <input type="email" id="email" name="_replyto" placeholder="Email" required>
                     </div>
                     <div>
-                        <textarea name="message" id="message"  rows="4" placeholder="Message" required></textarea>
+                        <textarea name="message" id="message" rows="4" placeholder="Message" required></textarea>
                     </div>
                     <div>
                         <input type="submit" id="submit" value="Send Message">
@@ -94,5 +117,7 @@
 
         </section>
     </div>
+
 </body>
+
 </html>
