@@ -33,7 +33,7 @@ small {
     position: fixed;
     padding: 2rem 2rem;
     text-align: center;
-    background-image: url(/assets/bg-1.jpg);
+    background-image: url(assets/bg-1.jpg);
     background-repeat: no-repeat;
     background-size: auto, 150%;
     background-attachment: scroll, scroll;
